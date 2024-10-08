@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Valorant-api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Descrição do Projeto:
 
-## Available Scripts
+O valorant-api é uma site simples aonde utilizamos uma api de valorant e podemos visualizar o ícone de um agente, com sua descrição e o nome de suas habilidade selecionando dentre uma lista de qual preferir!
 
-In the project directory, you can run:
+## ☕ Usando Valorant-api
 
-### `npm start`
+Para usar Valorant-api localmente, siga estas etapas:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone o repositório
+Primeiro, você deve clonar o repositório para o seu ambiente local. Execute o seguinte comando no terminal:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Código no bash:
+```
+<git clone https://github.com/Br3no4k/Valorant-API.git>
+```
 
-### `npm test`
+2. Acesse o diretório do projeto
+depois de clonar, navegue até a pasta em que está o projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Código no bash:
+```
+<cd "pastaValorant-api">
+```
 
-### `npm run build`
+3. Instale as dependências
+Agora, instale todas as dependências necessárias usando o npm:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Código no bash: 
+```
+<npm install>
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Execute o servidor de desenvolvimento
+Após a instalação das dependências, você pode rodar o projeto normalmente:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Código no bash: 
+```
+<npm start>
+```
 
-### `npm run eject`
+5. Acesse a aplicação
+Com o servidor em execução, abra o navegador e vá para http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+PRONTO! Agora você pode usar o Valorant-api localmente para ver descrições e habilidades dos agentes!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Contribuidores
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Agradecimento a contribuição do projeto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Jotinha14** - Desenvolvimento e estrutura do projeto.
+- **Br3no4k** - Implementação de funcionalidades.
+- **LeviCastilho** - Design e responsividade.
 
-## Learn More
+## 🚀 Tecnologias Utilizadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React**: A biblioteca principal utilizada para construir a interface e as funcionalidades da aplicação.
+- **API**: Utilizamos a api de valorant https://dash.valorant-api.com/
